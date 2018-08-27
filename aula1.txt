@@ -1,0 +1,153 @@
+1-a)
+	Deve-se informar o que o usuario deve inserir, que é o valor do alimento em kg,
+então é necessário um calculo que mostre quantos dias o alimento dura, tendo como base
+o fato de que a pessoa come 50g diariamente.
+
+1-b)
+	O resultado esperado é a quantidade de dias que o alimento dura.
+
+1-c)
+	O dado de entrada esperado é a quantidade de um alimento em kg.
+
+
+
+
+2-a)
+	É preciso informar ao usuario que ele deve inserir o valor de dois catetos de um
+triangulo retangulo, então calcular a hipotenusa
+
+2-b)
+	O resultado esperado é o valor da hipotenusa
+
+2-c)
+	Os dados de entrada são os valores dos catetos
+
+
+
+3-a)
+	É preciso pedir ao usuário para inserir a quantidade de maçãs que ele vai comprar,
+então calcular o valor final que ele deve pagar.
+
+3-b)
+	O resultado esperado é o valor correto do preço das maçãs
+
+3-c)
+	O dado de entrada esperado é o numero de maçãs a serem compradas.
+
+
+
+4-a)
+	É preciso pedir ao usuário para que ele insira as notas de avaliação,
+então calcular a média, e exibir uma mensagem com base na média.
+
+4-b)
+	Os resultados esperados são:
+		A média correta ser calculada, junto com a mensagem correspondente
+4-c)
+	Os dados de entrada esperados são as notas referentes às duas fases
+
+
+
+
+5-a)
+	Solicitar ao usuario para que ele insira os numeros que devem ser processados,
+limitar para que os numeros sejam diferentes, então executar uma lógica que verifique
+qual dos numeros é menor.
+
+5-b)
+	Exibição do menor número
+
+5-c)
+	Os 3 numeros que devem ser processados
+
+
+
+
+
+6-a)
+	Pedir ao usuario: a quantidade de horas trabalhadas, o salario/hora
+	Se Horas Trabalhadas > Quantidade Maxima de horas
+		Calcular: HorasT - HorasM = HorasExtras
+			  SalarioExtra = HorasExtras * (Salario + Salario * 0.5)
+ 			  Salario = Salario + SalarioExtra
+6-b)
+	Exibir o Salario total do mês, contando com horas extras, caso tenham sido
+realizadas
+6-c)
+	Horas trabalhadas e salario/hora
+
+
+
+
+7-a)
+	Ler o salario fixo, e o total de vendas de um vendedor, então calcular
+o salario total somando 3% de comissão das vendas. Caso esse vendedor
+tenha atingido a meta de 20k, exibir a mensagem e adicionar 600 ao salario
+total, então exibir.
+
+7-b)
+	O valor correto do salario deve ser exibido
+
+7-c)
+	Salario fixo, Total de vendas
+
+
+
+
+8-a)
+	Leitura das informações: Numero da Conta do Cliente, saldo, debito e credito.
+	Calcular o saldo atual com a formula( saldo atual = saldo - debito + credito )
+	verificar se o saldo é mario que 0 e exibir a mensagem correspondente
+8-b)
+	Calcular o saldo correto e exibir a mensagem correta.
+8-c)
+	Numero da conta
+	saldo
+	credito
+	debito
+
+9-a)
+	Pedir ao usuario os valores de estoque:
+	maxima
+	minima;
+	Calcular a media com a formula
+	(media = maxima-minima)/2
+	
+9-b)
+	Calcular o valor correto da media e exibir a mensagem correta 
+correspondente.
+
+9-c)
+	quantidade maxima e minima de estoque
+
+10-a)
+	Informar o que é necessario ao usuario;
+	Ler
+	 o tipo de combutivel
+	 a quantidade de litros vendida
+	calcular o valor a ser pago pelo cliente
+	com base nos valores
+	gasolina: 4,30
+	alcool:   3,90 				
+	exibir o valor a ser pago
+
+10-b)
+	calculo correto e exibição do valor a ser pago
+
+10-c)
+	Dados de entrada:
+		tipo de combustivel,
+		qtd de litros
+
+11-a)
+	Limitar para que as idades sejam sempre diferentes
+	Informar ao usuario e ler a entrada:
+	idade de 2 homens, 2 mulheres
+	Calcular: 
+		Homem mais velho + mulher mais nova
+		Homem mais novo * mulher mais velha
+	escrever o resultado
+11-b)
+	exibir os resultados da soma e o produto
+11-c)
+	idade de 2 mulheres e 2 homens
