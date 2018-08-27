@@ -98,7 +98,8 @@ total, então exibir.
 	Leitura das informações: Numero da Conta do Cliente, saldo, debito e credito.
 	Calcular o saldo atual com a formula( saldo atual = saldo - debito + credito )
 	verificar se o saldo é mario que 0 e exibir a mensagem correspondente
-8-b)
+8-b
+
 	Calcular o saldo correto e exibir a mensagem correta.
 8-c)
 	Numero da conta
@@ -108,6 +109,7 @@ total, então exibir.
 
 9-a)
 	Pedir ao usuario os valores de estoque:
+	atual
 	maxima
 	minima;
 	Calcular a media com a formula
@@ -118,7 +120,7 @@ total, então exibir.
 correspondente.
 
 9-c)
-	quantidade maxima e minima de estoque
+	valor de estoque minimo, maximo e atual;
 
 10-a)
 	Informar o que é necessario ao usuario;
@@ -140,7 +142,6 @@ correspondente.
 		qtd de litros
 
 11-a)
-	Limitar para que as idades sejam sempre diferentes
 	Informar ao usuario e ler a entrada:
 	idade de 2 homens, 2 mulheres
 	Calcular: 
