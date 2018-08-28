@@ -1,5 +1,28 @@
 #include <stdio.h>
 
+int maior(int a, int b)
+{
+	if(a> b)
+	{
+		return a;
+	}else{
+
+		return b;
+	}	
+
+}
+int menor(int a, int b)
+{
+	if(a<b)
+	{
+		return a;
+	 }else{
+		return b;
+	}
+
+}
+
+
 int main()
 {
 	int homem[2];
@@ -12,25 +35,11 @@ int main()
 	printf("Digite a idade de duas mulheres \n");
 	scanf("%d %d", &mulher[0], &mulher[1]);
 	
-	if(homem[0]>homem[1]){
-		velho = homem[0];
-		novo = homem[1];
-	}
-	else{
-		velho = homem[1];
-		novo = homem[0];
-	}
-	if(mulher[0]>mulher[1])
-	{
-		velha = mulher[0];
-		nova = mulher[1];
-	}else{
-		velha = mulher [1];
-		nova = mulher[0];
-	}
-	results[0] = velho+nova;
-	results[1] = novo * velha;
-	
+
+	maior(homem[0], homem[1]);
+	results[0] = maior(homem[0], homem[1]) + menor(mulher[0], mulher[1]);
+	results[1] = menor(homem[0], homem[1]) * maior(mulher[0], mulher[1]);
+
 	printf("%.2f \n", results[0]);
 	printf("%.2f \n", results[1]);
 
